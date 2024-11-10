@@ -9,6 +9,10 @@
 
 $menu[2] = array( __( 'Dashboard' ), 'exist', 'index.php', '', 'menu-top menu-top-first menu-icon-dashboard', 'menu-dashboard', 'dashicons-dashboard' );
 
+$menu[3] = array( __( 'Posts' ), 'exist', 'edit.php', '',
+
+'menu-top menu-icon-posts', 'menu-posts', 'dashicons-admin-post' );
+
 $menu[4] = array( '', 'exist', 'separator1', '', 'wp-menu-separator' );
 
 $menu[70] = array( __( 'Profile' ), 'exist', 'profile.php', '', 'menu-top menu-icon-users', 'menu-users', 'dashicons-admin-users' );
